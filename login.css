@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.box {
+    background: white;
+    width: 100vh;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.3);
+    margin: auto;
+    margin-top: 50px;
+}
+
+.mobile {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid grey;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+
+ p {
+    font-size: 14px;
+    color: grey;
+    text-align: left;
+}
+
+.otp {
+    border: 1px solid darkgrey;
+    width: 100%;
+    color: grey;
+    padding: 10px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 10px 0;
+    background: lightgrey;
+}
