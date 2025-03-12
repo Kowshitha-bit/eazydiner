@@ -3,10 +3,8 @@
     box-sizing: border-box;
 }
 
-.banner {
+#carouselExampleControls {
     margin-top: 70px;
-    /* width: 100%; */
-
 }
 
 .form {
@@ -85,41 +83,28 @@
 
 .para {
     font-size: 17px;
-    margin: 2% 2% 1% 10%;
+    margin: 2%;
 }
 
 .para a {
     text-decoration: none;
 }
 
-.restaurant-list {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-
-.restaurant-card {
+.card1 {
     border: 1px solid lightgray;
     border-radius: 10px;
-    box-shadow: 0px 5px 10px rgb(250, 249, 249);
+    box-shadow: 0px 5px 10px rgb(240, 237, 237);
     overflow: hidden;
-    width: 250px;
-    margin: 5px;
 }
 
-.restaurant-card img {
+.card-img-top {
     width: 200px;
-    height: 130px;
+    height: 200px;
     object-fit: cover;
     border-radius: 5px;
 }
 
-.restaurant-card h6 {
-    margin: 10px;
-    font-size: 15px;
-}
-.restaurant-card p {
-    margin: 10px;
+.card-text {
     font-size: 13px;
     color: #666;
 }
